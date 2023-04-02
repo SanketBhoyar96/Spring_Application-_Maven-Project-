@@ -20,6 +20,7 @@ public class App
     	System.out.println("IOC container Started");
     	WelcomeMassageGenertaor Genertaor = (WelcomeMassageGenertaor) context.getBean("massageGenrator");
     	System.out.println("Massage::"+ Genertaor.massageGenrator("Sanket"));
+    	System.out.println("setterWorking");
     	
     }
 }
